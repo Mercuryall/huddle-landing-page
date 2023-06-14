@@ -10,7 +10,8 @@ html {
 
 body {
   background-image: url(./images/bg-desktop.svg);
-  background-size: 1090px;
+  height: 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Poppins", "Open Sans", sans-serif;
   font-size: 1.6rem;
@@ -30,7 +31,7 @@ body {
 }
 
 .logo-img {
-  padding: 4rem 6rem;
+  padding: 4rem 6rem 7rem 6rem;
   width: 22%;
 }
 
@@ -62,11 +63,10 @@ body {
 }
 
 .social-links {
-  /* position: absolute;
-  right: 5%; */
   display: flex;
   justify-content: flex-end;
   padding-right: 8rem;
+  padding-top: 4rem;
 }
 
 .socials {
